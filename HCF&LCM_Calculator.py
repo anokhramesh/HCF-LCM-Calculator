@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import *# importing all functions frim the tkinter module
 def hcf_and_lcm():
     label_num1.grid(row=1, column=4)
     label_num2.grid(row=2, column=4)
@@ -36,7 +36,7 @@ def check1():
         greater = y
 
     while (True):
-        if ((greater % x == 0) and (greater % y == 0)):
+        if ((greater % x == 0) and (greater % y == 0)):# if the remainder of greater divided by value of x and remainder of greater divided by y is eual to 0 
             l = greater
             break
         greater += 1
